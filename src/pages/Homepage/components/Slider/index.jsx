@@ -54,7 +54,7 @@ const Slider = () => {
     ]
 
   return (
-    <div className='px-[32px] py-[16px]'>
+    <div className='px-[32px]'>
         <Swiper navigation={true} pagination={true} modules={[Pagination,Navigation]} className="mySwiper">
             {sliderImages.map(image => (
         <SwiperSlide>
@@ -64,7 +64,7 @@ const Slider = () => {
         </SwiperSlide>
         ))}
       </Swiper>
-    </div>
+      </div>
   )
 }
 
